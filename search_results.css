@@ -1,0 +1,333 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  My Code
+  ========================================
+*/
+
+body {
+    font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+  ========================================
+  Header Styles
+  ========================================
+*/
+
+header {
+	border-bottom: 1px solid lightgrey;
+}
+
+.google-logo {
+	float: left;
+	width: 90px;
+	padding: 30px;
+}
+
+.search-bar {
+	width: 600px;
+	height: 40px;
+	border-radius: 30px;
+	border: 1px solid lightgrey;
+	margin: 23px 0;
+	padding-left: 20px;
+}
+
+.search {
+	display: inline-block;
+	margin-right: 400px;
+}
+
+#search-icon {
+	display: inline-block;
+	background: url(images/search-icon.png) no-repeat;
+	width: 23px;
+	height: 23px;
+	background-size: 100%;
+	position: relative;
+	right: 45px;
+	top: 6px;
+}
+
+.btn-signIn {
+	padding: 7px 11px;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+
+.product {
+	position: relative;
+	top: 5px;
+	margin-right: 20px;
+}
+
+
+.header-nav ul li {
+	display: inline-block;
+	text-align: center;
+	padding: 13px;
+}
+
+.header-nav ul li a {
+	color: #777;
+}
+
+.header-nav {
+	margin-left: 140px;
+	font-size: 13px;
+	padding-top: 85px;
+}
+
+.header-nav li:first-child {
+	border-bottom: 3px solid #1A73E8;
+	color: #1A73E8;
+}
+
+.more-link {
+	margin-right: 115px;
+}
+
+#all-link {
+	color: #1A73E8;
+	font-weight: bold;
+}
+
+.fixed-header {
+	position: fixed;
+	background-color: #fff;
+}
+
+/*
+  ========================================
+  Main Styles
+  ========================================
+*/
+
+main {
+	padding-left: 160px;
+}
+
+.disc, .no-result {
+	margin-bottom: 30px;
+	color: #545454;
+	font-size: small;
+}
+
+.no-result {
+	margin-top: 15px;
+	font-size: 13px;
+	color: #808080;
+	margin-left: 10px;
+}
+
+main p a {
+	font-size: 18px;
+	color: #1a0dab;
+}
+
+main p {
+	font-size: 14px;
+	color: #006621;
+	margin-bottom: 7px;
+	margin-left: 20px;
+}
+
+/*
+  ========================================
+  Question Box Styles
+  ========================================
+*/
+
+.question-box {
+	max-width: 620px;
+	border: 1px solid lightgrey;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+.question-box h2 {
+	font-size: 20px;
+	color: #808080;
+	border-bottom: 1px solid lightgrey;
+	padding: 15px 0 15px 15px;
+}
+
+.question-box ul li {
+	border-bottom: 1px solid lightgrey;
+	padding: 7px 0 7px 15px;
+}
+
+.question-box ul li:last-child {
+	border-bottom: none;
+}
+
+.question-box ul li img {
+	float: right;
+	padding-right: 20px;
+}
+
+.feedback {
+	display: block;
+	margin-bottom: 30px;
+	color: #808080;
+	font-size:11px;
+	font-style: italic;
+	margin-left: 555px;
+	margin-top: 5px;
+}
+
+.related p {
+	color: #222;
+	font-size: 18px;
+}
+
+.related-p {
+	margin-bottom: 25px;
+}
+
+.related p a {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.rel-1 {
+	float: left;
+	margin-right: 40px;
+}
+
+.bottom-logo {
+	margin-top: 30px;
+	margin-left: 140px;
+}
+
+.page-no {
+	margin-bottom: 30px;
+	margin-left: 175px;
+}
+
+.page-no li {
+	display: inline-block;
+	margin-right: 8px;
+	font-size: small;
+}
+
+.page-no li:last-child {
+	margin-left: 40px;
+}
+
+.page-no li a {
+	color: #4285f4;
+}
+
+/*
+  ========================================
+  Footer Styles
+  ========================================
+*/
+
+footer {
+	color: rgba(0,0,0,.54);
+	border-top: 1px solid lightgrey;
+	background-color: #f1f1f1;
+	font-size: small;
+}
+
+footer nav {
+	border-top: 1px solid lightgrey;
+}
+
+footer p {
+	display: inline-block;
+	padding-bottom: 8px;
+	margin: 7px 0;
+}
+
+.down-nav li {
+	display: inline-block;
+	margin-right: 18px;
+}
+
+.down-nav {
+	padding: 14px 0;
+	padding-left: 162px;
+}
+
+footer p span {
+	color: #333;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+footer p a {
+	color: rgba(0,0,0,.54);
+}
+
+.country {
+	font-size: 15px;
+	padding: 5px 0;
+	padding-left: 162px;
+	padding-right: 15px;
+	border-right: 1px solid lightgrey;
+}
